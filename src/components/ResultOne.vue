@@ -6,8 +6,6 @@
           <router-link to="/">{{ hubo.id }} . {{ hubo.name }}</router-link>
         </td>
         <td class="voted">
-
-        ㅁㄴㅇㄻㄴㄹㅇ
           <hr color="red" :style="{width: `${hubo.percent * 5}px`}" />&nbsp;&nbsp;{{ hubo.count }} 표 ( {{ hubo.percent }}% )
         </td>
       </tr>
