@@ -1,7 +1,7 @@
 <template>
   <div class="result-View">
     <div class="component" v-for="data in datas" :key="data.ages">
-      <div v-if="data.id == huboid">
+      <div v-if="data.id == huboid"> 
         <printOneAges :reports="data.reports" />
       </div>
     </div>
