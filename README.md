@@ -1,3 +1,10 @@
+# vue.js 실습
+투표 집계 화면 만들기
+
+
+
+
+
 # firstpro
 
 ## Project setup
