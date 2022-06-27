@@ -2,10 +2,10 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" /> <!-- 데이터는 자식 컴포넌트로 단반향으로 전달 가능 -->
-    <button @click="btnClick">click me!</button>  <!-- 이벤트, 함수 실습 -->
-    <div v-for="item in items" :key="item.name">  <!-- v-for반복문 실습 -->
-      <p>{{item.name}} : {{item.age}}</p>
-    </div>
+<!--    <button @click="btnClick">click me!</button>  -->  <!-- 이벤트, 함수 실습 -->
+<!--     <div v-for="item in items" :key="item.name"> -->  <!-- v-for반복문 실습 -->
+<!--      <p>{{item.name}} : {{item.age}}</p>         -->
+<!--      </div>                                      -->
   </div>
 </template>
 

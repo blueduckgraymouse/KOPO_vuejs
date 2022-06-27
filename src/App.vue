@@ -2,7 +2,7 @@
   <nav>
     <router-link to="/">후보등록</router-link> |
     <router-link to="/about">투표하기</router-link> |
-    <router-link to="/resultView">결과보기</router-link>
+    <router-link to="/resultAllReport">결과보기</router-link>
   </nav>
   <router-view />
 </template>

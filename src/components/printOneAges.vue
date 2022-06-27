@@ -1,23 +1,25 @@
 <template>
   <div class="center">
     <table border=1>
-      <tr>
-        <td class="name">
-          <router-link to="/">{{ hubo.id }} . {{ hubo.name }}</router-link>
-        </td>
-        <td class="voted">
-          <hr color="red" :style="{width: `${hubo.percent * 5}px`}" />&nbsp;&nbsp;{{ hubo.count }} 표 ( {{ hubo.percent }}% )
-        </td>
-      </tr>
+      <div class="component" v-for="report in reports" :key="report.ages">
+        <tr>
+          <td class="name">
+            {{ report.ages }} 대
+          </td>
+          <td class="voted">
+            <hr color="red" :style="{width: `${report.percent * 5}px`}" />&nbsp;&nbsp;{{ report.count }} 표 ( {{ report.percent }}% )
+          </td>
+        </tr>
+      </div>
     </table>
   </div>
 </template>
 
 <script>
 export default {
-  name: "resultOne",
+  name: "printOneAges",
   props: {
-    hubo: Array,
+    reports: Array,
   },
 };
 </script>
